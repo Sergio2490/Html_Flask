@@ -1,0 +1,33 @@
+.card1 {
+    width: 200px;
+    height: 200px;
+    background-color: PaleTurquoise;
+    border-radius: 20px;
+}
+
+.photo1 {
+    width: 85%;
+    display: block;
+   /* padding: 8px 13px;    8- сверху, 13 - отступ слева*/
+    padding: 8px;
+    margin: 0 auto;  /*выравнивание блока с фото по центру*/
+}
+
+.photo1 img {
+    width: 100%;
+    border-radius: 12px;
+    /* display: block;   Убирает лишний отступ снизу у картинки*/
+}
+
+.info1 {
+    /* padding: 0 0 0 20px; */
+    margin-top: -30px;
+}
+.info1 h4{
+    text-align: center;
+}
+.info1 p{
+    margin-top: -15px;
+    font-size: 70%;
+    padding: 0 0 0 20px;  /*Отступ текста в теге параграфа СЛЕВА 20 пикс*/
+}
