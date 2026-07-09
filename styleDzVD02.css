@@ -6,6 +6,7 @@
         /* Для 2 и 3-й карточек */
     display: inline-block;  /* чтобы карточки встали в ряд */
     margin: 10px;           /* задаем отступ между карточками */
+    transition: 1s; /*дает плавность после убирания курсора мыши, при возврате маленькой карточки*/
 }
 
 .photo {
@@ -29,9 +30,35 @@
 }
 .info h4{
     text-align: center;
+    transition: 1s;
 }
 .info p{
     margin-top: -15px;
     font-size: 70%;
     padding: 0 0 0 20px;  /*Отступ текста в теге параграфа СЛЕВА 20 пикс*/
+    transition: 1s;
+}
+
+/* Применим псевдокласс hover к карточкам */
+.card:hover{
+    background-color:khaki;
+    width: 400px;
+    height:600px;
+    transition: 1s;
+    border-radius: 20px;
+   /* text-align: center;*/
+}
+
+    /* Увеличим размер заголова при наведении курсора мыши */
+.card:hover .info h4 {
+    font-size: 45px;
+    transition: 1s;
+}
+
+    /* Увеличим размер параграфа при наведении курсора мыши */
+.card:hover .info p {
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+    transition: 1s;
 }
