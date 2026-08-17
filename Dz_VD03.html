@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Massage TLM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Для иконок соцсетей -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styleDz_VD03.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="TLM_Picture.jpg" alt="Bootstrap" width="40" height="32">
+      ТвойЛичныйМассажист</a>
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Услуги массажа</a>
+        </li>
+
+        <li class = "nav-item">
+            <a class="nav-link" href="#">Полезная информация</a>
+        </li>
+          <li class = "nav-item">
+            <a class="nav-link" href="#">Отзывы клиентов</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href = "#">Контакты</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Основной контент -->
+<main style="padding-top: 80px;">
+  <!--Карусель- Слайдер -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="stown.jpg" class="d-block mx-auto" style="max-height: 500px; width: auto;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Bukk.jpg" class="d-block mx-auto" style="max-height: 500px; width: auto;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="guaSha.jpg" class="d-block mx-auto" style="max-height: 500px; width: auto;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="visceral.jpg" class="d-block mx-auto" style="max-height: 500px; width: auto;" alt="...">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Предыдущий</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Следующий</span>
+  </button>
+</div>
+
+<!-- Карточки услуг -->
+ <div class = "container">
+   <div class ="row">
+      <div class = "col-sm-12 col-lg-4">
+         <div class="card" style="width: 18rem; margin-top: 40px;">
+            <img src="stown.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Стоунтерапия</h5>
+              <p class="card-text">Выкладываются теплые камни вдоль спины. В то же время производится массаж ног нагретыми камнями (по желанию).Это очень расслабляющая процедура, рекомендуем выбирать для нее вечернее время.</p>
+              <a href="#" class="btn btn-primary">Записаться на услугу</a>
+           </div>
+         </div>   <!-- card -->
+      </div>    <!-- col1 -->
+
+      <div class = "col-sm-12 col-lg-4">
+         <div class="card" style="width: 18rem; margin-top: 40px;">
+            <img src="Bukk.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">Буккальный массаж</h5>
+               <p class="card-text">Массаж тонизирует и устраняет возрастные проблемы нижней половины лица: носогубные складки, кисетные морщины, брыли, двойной подбородок. Снимает стресс, дает позитивные эмоции и чувство релакса. Очень рекомендую всем девочкам попробовать такой вид воздействия💜</p>
+               <a href="#" class="btn btn-primary">Записаться на услугу</a>
+            </div>
+         </div> <!--Card -->
+      </div>   <!-- col2 -->
+
+      <div class = "col-sm-12 col-lg-4">
+         <div class="card" style="width: 18rem; margin-top: 40px;">
+            <img src="guaSha.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">Массаж гуа-ша</h5>
+               <p class="card-text">Выполняется скребком из меди. Область воздействия: волосистая часть головы и шея - сидя. Спина - лежа. Цель - оздоровление капиллярной системы, повышение общего и местного иммунитета, оздоровление внутренних органов (опосредованно), снятие стресса и повышение настроения.</p>
+               <a href="#" class="btn btn-primary">Записаться на услугу</a>
+            </div>
+         </div> <!--Card -->
+      </div>   <!-- col2 -->
+
+      <div class = "col-sm-12 col-lg-4">
+         <div class="card" style="width: 18rem; margin-top: 40px;">
+            <img src="visceral.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">Висцеральный массаж (живота)</h5>
+               <p class="card-text">Массаж внутренних органов: диафрагма, 12-перстная кишка, желчный и общий протоки, желчный пузырь, печень, селезёнка, желудок, аорта и подвздошные артерии, толстый и тонкий кишечник, органы малого таза. Восстанавливается система пищеварения, репродуктивная система, уходит стресс, повышается энергия и улучшается настроение.</p>
+               <a href="#" class="btn btn-primary">Записаться на услугу</a>
+            </div>
+         </div> <!--Card -->
+      </div>   <!-- col2 -->
+
+  </div> <!--row -->
+ </div> <!--Containet -->
+
+    <!-- Аккордеон -->
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Стоунтерапия
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Стоунтерапия</strong> — это СПА-процедура, при выполнении которой теплые камни выкладываются вдоль спины. Во время процедуры, по желанию,производится массаж ног нагретыми камнями. Это расслабляющая процедура, она успокаивает нервную систему человека. Рекомендуем выбирать для стоунтерапии вечернее время.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Буккальный массаж
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Буккальный массаж</strong> - это эффективный по своему воздействию массаж лица. Он тонизирует и устраняет возрастные проблемы нижней половины лица: носогубные складки, кисетные морщины, брыли, двойной подбородок. Снимает стресс, дает позитивные эмоции и чувство релакса. Очень рекомендую всем девочкам попробовать такой вид воздействия💜
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Массаж гуа-ша
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <strong>Древнекитайский Гуаша</strong> выполняем скребком из меди высшей степени очистки. Область воздействия: волосистая часть головы и шея - сидя. Спина - лежа. Цель - оздоровление капиллярной системы, повышение общего и местного иммунитета, оздоровление внутренних органов (опосредованно), снятие стресса и повышение настроения
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Висцеральный массаж (живота)
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+          <strong>Висцеральный массаж</strong> Массаж внутренних органов: диафрагма, 12-перстная кишка, желчный и общий протоки, желчный пузырь, печень, селезёнка, желудок, аорта и подвздошные артерии, толстый и тонкий кишечник, органы малого таза. Восстанавливается система пищеварения, репродуктивная система, уходит стресс, повышается энергия и улучшается настроение.
+      </div>
+    </div>
+  </div>
+
+</div>
+</main>
+
+<!-- Футер сайта -->
+<footer style = "background-color: LightSlateGray;" class="text-light py-4 mt-auto">
+  <div class="container">
+    <div class="row">
+
+      <!-- Блок: Название салона -->
+      <div class="col-md-4 mb-3 text-center">
+        <h5><img src="TLM_Picture.jpg" alt="Bootstrap" width="40" height="32">
+        Твой Личный Массажист</h5>
+        <h6>
+            <a href="https://dikidi.net/269997?p=0.pi" class="text-light text-decoration-none">Запись на массаж</a>
+        </h6>
+      </div>
+      <!-- Блок: Контакты -->
+      <div class="col-md-4 mb-3">
+        <h5>Контакты</h5>
+        <p class="mb-1"><i class="bi bi-telephone"></i> +7 (917) 123-45-67</p>
+        <p class="mb-0"><i class="bi bi-envelope"></i> tlm_massage@gmail.com</p>
+      </div>
+
+      <!-- Блок: Соцсети -->
+      <div class="col-md-4 mb-3">
+        <h5>Мы в соцсетях</h5>
+        <a href="https://vk.ru/tlm_43" target="_blank" class="text-light me-2" style="display: inline-block; width: 1.5rem; height: 1.5rem;">
+          <svg viewBox="0 0 48 48" fill="currentColor" style="width: 100%; height: 100%;">
+    <path d="M43.367 12.574c.333-.956 0-1.574-1.283-1.574h-4.251c-1.081 0-1.578.535-1.846 1.125 0 0-2.159 4.918-5.217 8.114-.989.924-1.44 1.217-1.98 1.217-.333 0-.815-.293-.815-1.249V12.574c0-1.074-.346-1.574-1.32-1.574H23.48c-.737 0-1.182.513-1.182.999 0 1.047 1.674 1.289 1.846 4.238v6.401c0 1.401-.271 1.658-.861 1.658-1.44 0-4.938-4.939-7.011-10.589-.406-1.099-.813-1.539-1.899-1.539H9.122C7.945 12.093 7.7 12.628 7.7 13.218c0 1.099 1.575 6.543 7.328 13.746C19.024 33.786 24.02 36 28.49 36c2.671 0 3.001-.558 3.001-1.523V30.53c0-1.098.246-1.318 1.077-1.318.609 0 1.653.303 4.093 2.644 2.787 2.606 3.246 3.757 4.817 3.757h4.251c1.177 0 1.765-.558 1.424-1.658-.385-1.119-1.761-2.741-3.586-4.663-.989-1.107-2.473-2.299-2.925-2.895-.629-.812-.449-1.168 0-1.886 0 0 5.169-6.807 5.707-9.118z"/>
+  </svg>
+</a>
+      </div>
+
+    </div>
+    <!-- Копирайт -->
+    <div class="row mt-3">
+      <div class="col text-center border-top pt-3">
+        <p class="mb-0">© 2026 Все права защищены.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
